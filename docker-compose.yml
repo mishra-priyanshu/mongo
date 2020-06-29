@@ -1,0 +1,14 @@
+---
+   services:
+     rs1:
+      image: mongo
+      command: mongod — replSet “rs0”
+     rs2:
+      image: mongo
+      command: mongod — replSet “rs0”
+     rs3:
+      image: mongo
+      command: mongod — replSet “rs0”
+     rs:
+      image: mongo
+   version: '3.7'

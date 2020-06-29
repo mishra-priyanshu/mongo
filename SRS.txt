@@ -1,0 +1,13 @@
+
+SRS Specfication
+
+ *Docker-compose version:
+    docker-compose version 1.23.2, build 1110ad01
+    docker-py version: 3.6.0
+    CPython version: 3.6.7
+    OpenSSL version: OpenSSL 1.1.0f  25 May 2017
+
+ *Docker Swarm
+
+ *Docker version - 19.01
+

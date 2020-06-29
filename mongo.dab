@@ -1,0 +1,41 @@
+{
+  "Services": {
+    "rs": {
+      "Image": "mongo@sha256:29805e9a6fc2a233b9b633c7b0f382a43df3f119522b82366a72abecb302a793",
+      "Networks": [
+        "default"
+      ]
+    },
+    "rs1": {
+      "Args": [
+        "mongod\u200a\u2014\u200areplSet",
+        "\u201crs0\u201d"
+      ],
+      "Image": "mongo@sha256:29805e9a6fc2a233b9b633c7b0f382a43df3f119522b82366a72abecb302a793",
+      "Networks": [
+        "default"
+      ]
+    },
+    "rs2": {
+      "Args": [
+        "mongod\u200a\u2014\u200areplSet",
+        "\u201crs0\u201d"
+      ],
+      "Image": "mongo@sha256:29805e9a6fc2a233b9b633c7b0f382a43df3f119522b82366a72abecb302a793",
+      "Networks": [
+        "default"
+      ]
+    },
+    "rs3": {
+      "Args": [
+        "mongod\u200a\u2014\u200areplSet",
+        "\u201crs0\u201d"
+      ],
+      "Image": "mongo@sha256:29805e9a6fc2a233b9b633c7b0f382a43df3f119522b82366a72abecb302a793",
+      "Networks": [
+        "default"
+      ]
+    }
+  },
+  "Version": "0.1"
+}
